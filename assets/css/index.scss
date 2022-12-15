@@ -1,0 +1,57 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+$colorRed:#E3062D;
+$colorDarkRed: #5C0000;
+$colorWhite: #FFFFFF;
+$colorBlack: #0F0F0F;
+
+nav {
+    background-color: $colorDarkRed !important;
+
+    .navbar-brand {
+        font-family: 'Ravi Prakash', cursive;
+        font-size: 2.4em;
+        color: $colorWhite;
+        span {
+            color: $colorRed;
+            font-family: 'Ravi Prakash', cursive;
+            font-size: 1.1em;
+        }
+    }
+
+    ul {
+        a {
+            color: $colorWhite !important;
+            font-weight: 600 !important;
+            font-size: 1em;
+        }
+    }
+}
+
+footer {
+    #footer-info {
+        background-color: $colorDarkRed;
+        color: $colorWhite;
+        #logo {
+            color: $colorWhite;
+            font-family: 'Ravi Prakash', cursive;
+            font-size: 2.4em;
+            span {
+                font-family: 'Ravi Prakash', cursive;
+                color: $colorRed;
+                font-size: 1.1em;
+            }
+        }
+
+        #location {
+            font-weight: bold;
+        }
+    }
+
+    #footer-copyright {
+        background-color: $colorBlack;
+        color: $colorWhite;
+    }
+}

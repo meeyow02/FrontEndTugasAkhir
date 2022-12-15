@@ -1,1 +1,44 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #5C0000 !important;
+}
+nav .navbar-brand {
+  font-family: "Ravi Prakash", cursive;
+  font-size: 2.4em;
+  color: #FFFFFF;
+}
+nav .navbar-brand span {
+  color: #E3062D;
+  font-family: "Ravi Prakash", cursive;
+  font-size: 1.1em;
+}
+nav ul a {
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+  font-size: 1em;
+}
+
+footer #footer-info {
+  background-color: #5C0000;
+  color: #FFFFFF;
+}
+footer #footer-info #logo {
+  color: #FFFFFF;
+  font-family: "Ravi Prakash", cursive;
+  font-size: 2.4em;
+}
+footer #footer-info #logo span {
+  font-family: "Ravi Prakash", cursive;
+  color: #E3062D;
+  font-size: 1.1em;
+}
+footer #footer-info #location {
+  font-weight: bold;
+}
+footer #footer-copyright {
+  background-color: #0F0F0F;
+  color: #FFFFFF;
+}/*# sourceMappingURL=index.css.map */
