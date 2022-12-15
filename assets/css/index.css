@@ -41,4 +41,18 @@ footer #footer-info #location {
 footer #footer-copyright {
   background-color: #0F0F0F;
   color: #FFFFFF;
+}
+
+header .card .card-img-overlay {
+  top: unset !important;
+  background: linear-gradient(rgba(0, 0, 0, 0), black 99%) !important;
+}
+header .card .card-title {
+  background-color: #E3062D;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+header .card .card-text {
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */

@@ -6,6 +6,7 @@ $colorRed:#E3062D;
 $colorDarkRed: #5C0000;
 $colorWhite: #FFFFFF;
 $colorBlack: #0F0F0F;
+$colorGray: #E2E2E2;
 
 nav {
     background-color: $colorDarkRed !important;
@@ -53,5 +54,23 @@ footer {
     #footer-copyright {
         background-color: $colorBlack;
         color: $colorWhite;
+    }
+}
+
+header {
+    .card {
+        .card-img-overlay {
+            top: unset !important;
+            background: linear-gradient(#00000000, black 99%) !important;
+        }
+
+        .card-title {
+            background-color: $colorRed;
+            width: fit-content;
+        }
+
+        .card-text {
+            text-transform: uppercase;
+        }
     }
 }
