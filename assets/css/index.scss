@@ -8,6 +8,16 @@ $colorWhite: #FFFFFF;
 $colorBlack: #0F0F0F;
 $colorGray: #E2E2E2;
 
+hr {
+    height: 4px;
+    margin-left: 15px;
+    margin-bottom:-3px;
+  }
+
+  .hr-danger{
+    background-image: -webkit-linear-gradient(left, $colorRed, $colorGray, $colorGray);
+  }
+
 nav {
     background-color: $colorDarkRed !important;
 
@@ -28,8 +38,108 @@ nav {
             font-weight: 600 !important;
             font-size: 1em;
         }
+
     }
 }
+
+header {
+    .card {
+        .card-img-overlay {
+            top: unset !important;
+            background: linear-gradient(#00000000, black 99%) !important;
+        
+            #cardTitle1 {
+                background-color: $colorRed;
+                width: fit-content;
+                font-size: medium;
+                text-transform: uppercase;
+            }
+    
+            #cardText1 {
+                text-transform: uppercase;
+                font-size: large;
+                font-weight: 600;
+            }
+
+            #cardTextSmall1 {
+                text-transform: capitalize;
+                font-size: 1em;
+            }
+
+            #cardTitle2 {
+                background-color: $colorRed;
+                width: fit-content;
+                font-size: small;
+                text-transform: uppercase;
+            }
+            
+            #cardText2 {
+                text-transform: uppercase;
+                font-size: small;
+                font-weight: 600;
+            }
+
+            #cardTextSmall2 {
+                text-transform: capitalize;
+                font-size: 0.89em;
+            }
+
+        }
+        
+    }
+
+}
+
+#upRelease {
+
+    .col {
+        width: fit-content;
+    }
+
+    .col-1 {
+        color: $colorGray;
+        outline: auto;
+        text-align: center;
+
+        #hover {
+            a {
+                color: $colorGray;
+            }
+
+            a:hover {
+                color: $colorRed;
+            }
+        }
+    }
+
+    .card {
+        border: $colorWhite;
+
+        .card-img-overlay {
+            top: unset !important;
+            background: linear-gradient(#00000000, black 99%) !important;
+        }
+        color: $colorWhite;
+        text-transform: uppercase;
+        
+        .card-title {
+            font-size: small;
+            background-color: $colorRed;
+            width: fit-content;
+        }
+    }
+
+    #cardTextUpRelease {
+        text-transform: uppercase;
+    }
+
+    #cardTextSmallUpRelease {
+        font-size: small;
+        color: gray;
+    }
+
+}
+
 
 footer {
     #footer-info {
@@ -57,20 +167,3 @@ footer {
     }
 }
 
-header {
-    .card {
-        .card-img-overlay {
-            top: unset !important;
-            background: linear-gradient(#00000000, black 99%) !important;
-        }
-
-        .card-title {
-            background-color: $colorRed;
-            width: fit-content;
-        }
-
-        .card-text {
-            text-transform: uppercase;
-        }
-    }
-}

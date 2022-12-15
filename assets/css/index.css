@@ -2,6 +2,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+hr {
+  height: 4px;
+  margin-left: 15px;
+  margin-bottom: -3px;
+}
+
+.hr-danger {
+  background-image: -webkit-linear-gradient(left, #E3062D, #E2E2E2, #E2E2E2);
+}
+
 nav {
   background-color: #5C0000 !important;
 }
@@ -19,6 +29,85 @@ nav ul a {
   color: #FFFFFF !important;
   font-weight: 600 !important;
   font-size: 1em;
+}
+
+header .card .card-img-overlay {
+  top: unset !important;
+  background: linear-gradient(rgba(0, 0, 0, 0), black 99%) !important;
+}
+header .card .card-img-overlay #cardTitle1 {
+  background-color: #E3062D;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: medium;
+  text-transform: uppercase;
+}
+header .card .card-img-overlay #cardText1 {
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: 600;
+}
+header .card .card-img-overlay #cardTextSmall1 {
+  text-transform: capitalize;
+  font-size: 1em;
+}
+header .card .card-img-overlay #cardTitle2 {
+  background-color: #E3062D;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: small;
+  text-transform: uppercase;
+}
+header .card .card-img-overlay #cardText2 {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 600;
+}
+header .card .card-img-overlay #cardTextSmall2 {
+  text-transform: capitalize;
+  font-size: 0.89em;
+}
+
+#upRelease .col {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#upRelease .col-1 {
+  color: #E2E2E2;
+  outline: auto;
+  text-align: center;
+}
+#upRelease .col-1 #hover a {
+  color: #E2E2E2;
+}
+#upRelease .col-1 #hover a:hover {
+  color: #E3062D;
+}
+#upRelease .card {
+  border: #FFFFFF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#upRelease .card .card-img-overlay {
+  top: unset !important;
+  background: linear-gradient(rgba(0, 0, 0, 0), black 99%) !important;
+}
+#upRelease .card .card-title {
+  font-size: small;
+  background-color: #E3062D;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#upRelease #cardTextUpRelease {
+  text-transform: uppercase;
+}
+#upRelease #cardTextSmallUpRelease {
+  font-size: small;
+  color: gray;
 }
 
 footer #footer-info {
@@ -41,18 +130,4 @@ footer #footer-info #location {
 footer #footer-copyright {
   background-color: #0F0F0F;
   color: #FFFFFF;
-}
-
-header .card .card-img-overlay {
-  top: unset !important;
-  background: linear-gradient(rgba(0, 0, 0, 0), black 99%) !important;
-}
-header .card .card-title {
-  background-color: #E3062D;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-header .card .card-text {
-  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */
