@@ -502,6 +502,38 @@ header {
 
 }
 
+#detail-newRelease {
+    
+    text-transform: capitalize;
+    
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+    
+    .img-thumbnail {
+        border: 0;
+    }
+
+    .title {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    #hover {
+            
+        a {
+            color: $colorGray;
+        }
+        
+        a:hover {
+            color: $colorRed;
+        }
+    }
+
+}
+
 footer {
     #footer-info {
         background-color: $colorDarkRed;

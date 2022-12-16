@@ -389,6 +389,28 @@ header .card .card-img-overlay .s-header-publisher {
   color: #E3062D;
 }
 
+#detail-newRelease {
+  text-transform: capitalize;
+}
+#detail-newRelease a {
+  color: #0F0F0F;
+  text-decoration: none;
+}
+#detail-newRelease .img-thumbnail {
+  border: 0;
+}
+#detail-newRelease .title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+#detail-newRelease #hover a {
+  color: #E2E2E2;
+}
+#detail-newRelease #hover a:hover {
+  color: #E3062D;
+}
+
 footer #footer-info {
   background-color: #5C0000;
   color: #FFFFFF;
