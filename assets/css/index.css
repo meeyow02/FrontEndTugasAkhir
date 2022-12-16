@@ -98,20 +98,10 @@ header .card .card-img-overlay .s-header-publisher {
   color: #0F0F0F;
   text-decoration: none;
 }
-#upRelease .col {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-#upRelease .col-1 {
-  color: #E2E2E2;
-  outline: auto;
-  text-align: center;
-}
-#upRelease .col-1 a {
+#upRelease #hover a {
   color: #E2E2E2;
 }
-#upRelease .col-1 a:hover {
+#upRelease #hover a:hover {
   color: #E3062D;
 }
 #upRelease .card {
@@ -308,6 +298,94 @@ header .card .card-img-overlay .s-header-publisher {
   color: #E2E2E2;
 }
 #reviews #more-reviews a:hover {
+  color: #E3062D;
+}
+
+#newRelease {
+  text-transform: capitalize;
+}
+#newRelease a {
+  color: #0F0F0F;
+  text-decoration: none;
+}
+#newRelease .img-thumbnail {
+  border: 0;
+}
+#newRelease .title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+#newRelease #hover a {
+  color: #E2E2E2;
+}
+#newRelease #hover a:hover {
+  color: #E3062D;
+}
+
+#bestSeller {
+  text-transform: capitalize;
+}
+#bestSeller a {
+  color: #0F0F0F;
+  text-decoration: none;
+}
+#bestSeller .img-thumbnail {
+  border: 0;
+}
+#bestSeller .title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+#bestSeller #hover a {
+  color: #E2E2E2;
+}
+#bestSeller #hover a:hover {
+  color: #E3062D;
+}
+
+#comingSoon {
+  text-transform: capitalize;
+}
+#comingSoon a {
+  color: #0F0F0F;
+  text-decoration: none;
+}
+#comingSoon .img-thumbnail {
+  border: 0;
+}
+#comingSoon .title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+#comingSoon #hover a {
+  color: #E2E2E2;
+}
+#comingSoon #hover a:hover {
+  color: #E3062D;
+}
+
+#mostPlayed {
+  text-transform: capitalize;
+}
+#mostPlayed a {
+  color: #0F0F0F;
+  text-decoration: none;
+}
+#mostPlayed .img-thumbnail {
+  border: 0;
+}
+#mostPlayed .title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+#mostPlayed #hover a {
+  color: #E2E2E2;
+}
+#mostPlayed #hover a:hover {
   color: #E3062D;
 }
 

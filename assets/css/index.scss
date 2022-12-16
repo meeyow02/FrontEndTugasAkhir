@@ -124,23 +124,15 @@ header {
         text-decoration: none;
     }
 
-    .col {
-        width: fit-content;
-    }
-
-    .col-1 {
-        color: $colorGray;
-        outline: auto;
-        text-align: center;
-
+    #hover {
+            
         a {
             color: $colorGray;
         }
-
+        
         a:hover {
             color: $colorRed;
         }
-            
     }
 
     .card {
@@ -380,6 +372,134 @@ header {
         }
     }
     
+}
+
+#newRelease {
+    
+    text-transform: capitalize;
+    
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+    
+    .img-thumbnail {
+        border: 0;
+    }
+
+    .title {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    #hover {
+            
+        a {
+            color: $colorGray;
+        }
+        
+        a:hover {
+            color: $colorRed;
+        }
+    }
+
+}
+
+#bestSeller {
+    
+    text-transform: capitalize;
+    
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+    
+    .img-thumbnail {
+        border: 0;
+    }
+
+    .title {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    #hover {
+            
+        a {
+            color: $colorGray;
+        }
+        
+        a:hover {
+            color: $colorRed;
+        }
+    }
+
+}
+
+#comingSoon {
+    
+    text-transform: capitalize;
+    
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+    
+    .img-thumbnail {
+        border: 0;
+    }
+
+    .title {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    #hover {
+            
+        a {
+            color: $colorGray;
+        }
+        
+        a:hover {
+            color: $colorRed;
+        }
+    }
+
+}
+
+#mostPlayed {
+    
+    text-transform: capitalize;
+    
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+    
+    .img-thumbnail {
+        border: 0;
+    }
+
+    .title {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    #hover {
+            
+        a {
+            color: $colorGray;
+        }
+        
+        a:hover {
+            color: $colorRed;
+        }
+    }
+
 }
 
 footer {
