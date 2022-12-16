@@ -534,6 +534,38 @@ header {
 
 }
 
+#details {
+    
+    #category {
+        font-size: small;
+        color: $colorRed;
+        text-decoration: underline;
+    }
+
+}
+
+#title {
+    font-weight: bolder;
+    text-align: justify;
+}
+
+#publisher {
+    color: $colorBlack;
+    text-transform: capitalize;
+    font-size: small;
+}
+
+#publish {
+    font-size: small;
+    color: $colorGType;
+}
+
+#desc {
+    text-align: justify;
+}
+
+
+
 footer {
     #footer-info {
         background-color: $colorDarkRed;
