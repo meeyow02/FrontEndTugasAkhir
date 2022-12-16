@@ -9,6 +9,25 @@ $colorBlack: #0F0F0F;
 $colorGray: #E2E2E2;
 $colorGType: #7A7A7A;
 
+.star {
+    height: 50px;
+    width: 50px;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    text-align: center;
+    font-size: small;
+    background: $colorRed;
+    color: white;
+  }
+  
+  .star::before {
+    display: inline-block;
+    height: 100%;
+    background: blue;
+    vertical-align: middle;
+    content: '';
+  }
+
 hr {
     height: 5px;
     margin-left: 7px;
@@ -100,13 +119,13 @@ header {
 
 #upRelease {
 
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+
     .col {
         width: fit-content;
-
-        a {
-            color: $colorBlack;
-            text-decoration: none;
-        }
     }
 
     .col-1 {
@@ -230,6 +249,138 @@ header {
     }
 }
 
+#features {
+    
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+
+    .card {
+        border: $colorWhite;
+        .card-img-overlay {
+            top: unset !important;
+            background: linear-gradient(#00000000, black 99%) !important;
+        }
+        color: $colorWhite;
+        text-transform: uppercase;
+        
+        .card-title {
+            font-size: small;
+            background-color: $colorRed;
+            width: fit-content;
+        }
+
+    }
+
+    .features-title {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .features-publisher {
+        font-size: small;
+        color: $colorGType;
+    }
+
+    #more-features {
+        color: $colorGType;
+        width: fit-content;
+        text-align: center;
+        font-weight: 500;
+
+        a {
+            color: $colorGray;
+        }
+
+        a:hover {
+            color: $colorRed;
+        }
+    }
+
+}
+
+#guides {
+    
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+    }
+
+    .card {
+        border: $colorWhite;
+        .card-img-overlay {
+            top: unset !important;
+            background: linear-gradient(#00000000, black 99%) !important;
+        }
+        color: $colorWhite;
+        text-transform: uppercase;
+        
+        .card-title {
+            font-size: small;
+            background-color: $colorRed;
+            width: fit-content;
+        }
+
+    }
+
+    .guides-title {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .guides-publisher {
+        font-size: small;
+        color: $colorGType;
+    }
+
+    #more-guides {
+        color: $colorGType;
+        width: fit-content;
+        text-align: center;
+        font-weight: 500;
+
+        a {
+            color: $colorGray;
+        }
+
+        a:hover {
+            color: $colorRed;
+        }
+    }
+
+}
+
+#reviews {
+
+    .card-img-overlay {
+        top: unset !important;
+        background: linear-gradient(#00000000, black 99%) !important;
+    }
+
+    a {
+        color: $colorBlack;
+        text-decoration: none;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    #more-reviews {
+        color: $colorGType;
+        width: fit-content;
+        text-align: center;
+        font-weight: 500;
+
+        a {
+            color: $colorGray;
+        }
+
+        a:hover {
+            color: $colorRed;
+        }
+    }
+    
+}
 
 footer {
     #footer-info {
